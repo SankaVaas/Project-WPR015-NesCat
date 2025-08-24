@@ -278,7 +278,7 @@ const SaaSMarketplace = () => {
   );
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen #6d28d9">
       {/* Navigation */}
       <nav className={`fixed w-full z-50 transition-all duration-300 ${
         scrolled ? 'bg-white/90 backdrop-blur-lg shadow-lg' : 'bg-transparent'
@@ -593,4 +593,4 @@ const SaaSMarketplace = () => {
   );
 };
 
-export default SaaSMarketplace;Products;
+export default SaaSMarketplace;
